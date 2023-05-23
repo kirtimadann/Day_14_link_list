@@ -19,6 +19,11 @@ public class LinkedListMain {
         linkedList2.append(70);
 
         linkedList2.display();
+        System.out.println();
+
+        System.out.println("Element popped from head => " + linkedList2.pop());
+        linkedList2.display();
 
     }
+
 }
