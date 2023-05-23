@@ -1,5 +1,4 @@
 package com.bl;
-import java.util.LinkedList;
 
 public class LinkedListMain {
 
@@ -7,11 +6,11 @@ public class LinkedListMain {
 
         LinkedList<Integer> linkedList1 = new LinkedList<>();
 
-        linkedList1.add(56);
-        linkedList1.add(30);
         linkedList1.add(70);
+        linkedList1.add(30);
+        linkedList1.add(56);
 
-        System.out.println("Linked List => " + linkedList1);
+        linkedList1.display();
+
     }
-
 }
