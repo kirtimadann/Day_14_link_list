@@ -46,6 +46,14 @@ public class LinkedListMain {
             System.out.println("Data not found");
         }
 
+        System.out.println();
+        if (linkedList1.insertAfter(30,45)){
+            System.out.println("Valid Insertion");
+            linkedList1.display();
+        }
+        else {
+            System.out.println("Invalid insertion");
+        }
     }
 
 }
